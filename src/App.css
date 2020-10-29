@@ -27,7 +27,16 @@
 .App-link {
   color: #61dafb;
 }
-
+.nav-link{
+  color: floralwhite;
+  width: 50%;
+  display: inline;
+  display:flex;  
+  list-style-type: none;
+}
+.footer{
+  background-color: #61dafb;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
