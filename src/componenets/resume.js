@@ -1,30 +1,24 @@
 import React, {Component} from 'react'
-import {Document, Page, pdfjs} from 'react-pdf'
+import {Breadcrumb,BreadcrumbItem} from 'reactstrap'
+import {Link} from 'react-router-dom'
+import pdf from './1.pdf'
 class Resume extends Component{
-    state = {
-        numPages: null,
-        pageNumber: 1,
-      }
-      constructor(props){
-        super(props);
-        pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs}/pdf.worker.js`;
-    }
-      onDocumentLoad = ({ numPages }) => {
-        this.setState({ numPages });
-      }
-    
       render() {
-        const { pageNumber, numPages } = this.state;
-    
         return (
-          <div>
-            <Document
-              file="../Bikrant_101703145_Resume.pdf"
-              onLoadSuccess={this.onDocumentLoad}
-            >
-              <Page pageNumber={pageNumber} />
-            </Document>
-          </div>
+          <React.Fragment>
+             <div className="mt-0 ml-2 mr-2">
+                <Breadcrumb  >
+                    <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                    <BreadcrumbItem active>Resume</BreadcrumbItem>
+                </Breadcrumb>
+              </div>
+            <div>
+              <object name ="Bikrant"className="resume" width="800" height="500" type="application/pdf" data={pdf}>
+              <p>PDF is not supported .</p>
+              </object>
+            </div>
+          </React.Fragment>
+         
         );
       }
 }
