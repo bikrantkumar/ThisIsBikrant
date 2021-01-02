@@ -9,25 +9,24 @@ import About from './componenets/aboutme'
 import Footer from './componenets/footer'
 import Header from './componenets/header'
 import Resume from './componenets/resume'
-import Projects from './componenets/projects';
-import Contact from './componenets/contactus'
+import Projects from './componenets/projects'
+import Contact from './componenets/contact'
 class App extends Component{
   render(){
     return(
       <React.Fragment>
-      
       <HashRouter>
-      <Header/>
-        <Switch>
-          <Route exact path="/" component={Main}>
-            <Redirect to={'/home'}/>
-          </Route>
-          <Route path={'/home'} component={Main}/>
-          <Route exact path="/aboutme" component={About}/>
-          <Route exact path="/resume" component={Resume}/>
-          <Route exact path="/projects" component={Projects}/>
-          <Route exact path="/contact" component={Contact}/>
-        </Switch>
+        <Header/>
+          <Switch>
+            <Route exact path="/" component={Main}>
+              <Redirect to={'/home'}/>
+            </Route>
+            <Route path={'/home'} component={Main}/>
+            <Route exact path="/aboutme" component={About}/>
+            <Route exact path="/resume" component={Resume}/>
+            <Route exact path="/projects" component={Projects}/>
+            <Route exact path="/contact" component={Contact}/>
+          </Switch>
         <Footer/>
       </HashRouter>
       

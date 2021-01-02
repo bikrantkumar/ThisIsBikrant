@@ -9,14 +9,21 @@ class Projects extends Component{
             <div className="container">
                     <div className="mt-0 ml-2 mr-2">
                         <Breadcrumb >
+                        
                             <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                             <BreadcrumbItem active>Projects</BreadcrumbItem>
                         </Breadcrumb>
                     </div>
+                    <div>
+                        <div className="headline">Projects</div>
+                        <div>
+                            <div className="card">
+                                Safehive                                
+                            </div>
+                        </div>
+                    </div>
             </div>
-            <div>
-            <h1>Projects</h1>
-            </div>
+            
             </React.Fragment>
         )
     }
