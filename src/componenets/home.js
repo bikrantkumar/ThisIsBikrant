@@ -22,11 +22,11 @@ class Main extends Component{
                                     <li className="card-3"></li>
                                 </ul>
                                 <div className="rating">
-                                    <span class="fa fa-star fa-2x checked"></span>
-                                    <span class="fa fa-star fa-2x  checked"></span>
-                                    <span class="fa fa-star fa-2x  checked"></span>
-                                    <span class="fa fa-star fa-2x  checked"></span>
-                                    <span class="fa fa-star fa-2x  checked"></span>
+                                    <span class="fa fa-star fa-lg checked"></span>
+                                    <span class="fa fa-star fa-lg  checked"></span>
+                                    <span class="fa fa-star fa-lg  checked"></span>
+                                    <span class="fa fa-star fa-lg  checked"></span>
+                                    <span class="fa fa-star fa-lg  checked"></span>
                                 </div>
                             </div>
                             <div className="card">Ethereum Based Dapp Development
@@ -35,11 +35,11 @@ class Main extends Component{
                                     <li className="card-3"></li>
                                 </ul>
                                 <div className="rating">
-                                    <span class="fa fa-star fa-2x checked"></span>
-                                    <span class="fa fa-star fa-2x  checked"></span>
-                                    <span class="fa fa-star fa-2x  checked"></span>
-                                    <span class="fa fa-star fa-2x  checked"></span>
-                                    <span class="fa fa-star fa-2x"></span>
+                                    <span class="fa fa-star fa-lg checked"></span>
+                                    <span class="fa fa-star fa-lg  checked"></span>
+                                    <span class="fa fa-star fa-lg  checked"></span>
+                                    <span class="fa fa-star fa-lg  checked"></span>
+                                    <span class="fa fa-star fa-lg"></span>
                                 </div>
                             </div>
                     </div>
@@ -50,11 +50,11 @@ class Main extends Component{
                                 <li className="card-3"></li>
                             </ul>
                             <div className="rating">
-                                    <span class="fa fa-star fa-2x checked"></span>
-                                    <span class="fa fa-star fa-2x  checked"></span>
-                                    <span class="fa fa-star fa-2x  checked"></span>
-                                    <span class="fa fa-star fa-2x  checked"></span>
-                                    <span class="fa fa-star fa-2x  "></span>
+                                    <span class="fa fa-star fa-lg checked"></span>
+                                    <span class="fa fa-star fa-lg  checked"></span>
+                                    <span class="fa fa-star fa-lg  checked"></span>
+                                    <span class="fa fa-star fa-lg  checked"></span>
+                                    <span class="fa fa-star fa-lg  "></span>
                             </div>
                         </div>               
                         <div className="card">Machine learning
@@ -63,11 +63,11 @@ class Main extends Component{
                                 <li className="card-3"></li>
                             </ul>
                             <div className="rating">
-                                        <span class="fa fa-star fa-2x checked"></span>
-                                        <span class="fa fa-star fa-2x  checked"></span>
-                                        <span class="fa fa-star fa-2x  checked"></span>
-                                        <span class="fa fa-star fa-2x  checked"></span>
-                                        <span class="fa fa-star fa-2x  "></span>
+                                        <span class="fa fa-star fa-lg checked"></span>
+                                        <span class="fa fa-star fa-lg  checked"></span>
+                                        <span class="fa fa-star fa-lg  checked"></span>
+                                        <span class="fa fa-star fa-lg  checked"></span>
+                                        <span class="fa fa-star fa-lg  "></span>
                             </div>
                         </div>
                     </div>
