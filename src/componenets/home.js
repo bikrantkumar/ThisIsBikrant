@@ -16,7 +16,7 @@ class Main extends Component{
                 </div>
                 <div className="body-3">
                     <div className="row">
-                            <div className="card"> Web Development  
+                            <div className="card project-1"> Web Development  
                                 <ul>
                                     <li className="card-2"></li> 
                                     <li className="card-3"></li>
@@ -29,7 +29,7 @@ class Main extends Component{
                                     <span class="fa fa-star fa-lg  checked"></span>
                                 </div>
                             </div>
-                            <div className="card">Ethereum Based Dapp Development
+                            <div className="card  project-1">Ethereum Dapp Development
                                 <ul>
                                     <li className="card-2"></li> 
                                     <li className="card-3"></li>
@@ -44,7 +44,7 @@ class Main extends Component{
                             </div>
                     </div>
                     <div className="row">
-                        <div className="card">Data Analytics
+                        <div className="card  project-1">Data Analytics and Visualization
                             <ul>
                                 <li className="card-2"></li>
                                 <li className="card-3"></li>
@@ -57,7 +57,7 @@ class Main extends Component{
                                     <span class="fa fa-star fa-lg  "></span>
                             </div>
                         </div>               
-                        <div className="card">Machine learning
+                        <div className="card  project-1">Machine learning
                             <ul>
                                 <li className="card-2"></li>
                                 <li className="card-3"></li>

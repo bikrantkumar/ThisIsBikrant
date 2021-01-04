@@ -12,7 +12,7 @@ class Resume extends Component{
                     <BreadcrumbItem active>Resume</BreadcrumbItem>
                 </Breadcrumb>
               </div>
-            <div>
+            <div className="resume">
               <object name ="Bikrant"className="resume" width="800" height="500" type="application/pdf" data={pdf}>
               <p>PDF is not supported .</p>
               </object>

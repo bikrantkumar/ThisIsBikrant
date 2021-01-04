@@ -7,22 +7,24 @@ class Header extends Component{
             <div id="header ">
                 <nav className="header-1 navbar navbar-expand-md bg-dark navbar-dark ">
                     <Link to={'/home'} ><div className="link navbar-brand"> Bikrant Kumar </div></Link> 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul className="navbar-nav">
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <Link to={'/home'} ><div className="links nav-link"> Home </div></Link> 
+                                <Link to={'/home'} ><div className="links nav-link nav-item fa fa-home fa-lg"> Home </div></Link> 
                             </li>
                             <li className="nav-item">
-                                <Link to={'/aboutme'}><div className="links nav-link"> About me </div></Link> 
+                                <Link to={'/aboutme'}><div className="links nav-link fa fa-info fa-lg"> About me </div></Link> 
                             </li>
                             <li className="nav-item">
-                                <Link to={'./resume'}><div className="links nav-link"> Resume </div></Link>
+                                <Link to={'./resume'}><div className="links nav-link fa fa-address-card fa-lg"> Resume </div></Link>
                             </li>
                             <li className="nav-item">
-                                <Link to={'./projects'}><div className="links nav-link"> Projects  </div></Link>
+                                <Link to={'./projects'}><div className="links nav-link fa fa-cogs fa-lg"> Projects  </div></Link>
                             </li>
                         </ul>
                     </div>
