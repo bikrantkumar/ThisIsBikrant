@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ThisIsBikrant/static/css/main.28d2ec81.chunk.css",
-    "main.js": "/ThisIsBikrant/static/js/main.4b6c2f95.chunk.js",
-    "main.js.map": "/ThisIsBikrant/static/js/main.4b6c2f95.chunk.js.map",
+    "main.js": "/ThisIsBikrant/static/js/main.b06beae5.chunk.js",
+    "main.js.map": "/ThisIsBikrant/static/js/main.b06beae5.chunk.js.map",
     "runtime-main.js": "/ThisIsBikrant/static/js/runtime-main.5c523c2f.js",
     "runtime-main.js.map": "/ThisIsBikrant/static/js/runtime-main.5c523c2f.js.map",
     "static/css/2.56937c09.chunk.css": "/ThisIsBikrant/static/css/2.56937c09.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.56937c09.chunk.css",
     "static/js/2.98310795.chunk.js",
     "static/css/main.28d2ec81.chunk.css",
-    "static/js/main.4b6c2f95.chunk.js"
+    "static/js/main.b06beae5.chunk.js"
   ]
 }
