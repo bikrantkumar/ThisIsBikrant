@@ -96,6 +96,7 @@ html,body
   display: flex;
   flex-direction: row;
   border-style: solid;
+  flex-wrap: wrap;
   border-width: 2px;
   padding: 3vh;
   border-radius: 4px;
@@ -111,15 +112,12 @@ cursor: pointer;
 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 .title{
-  width: 15vw;
-  padding: 1vh;
+  text-decoration-color: royalblue;
 }
 .about{
-  width: 50vw;
-  padding: 1vh;
+  padding-bottom: 1vh;
 }
 .deployment{
-  width: 25vw;
   display: flex;
   flex-direction: column;
 }
@@ -145,7 +143,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   flex-wrap: wrap;
 }
 .footer-2{
-  flex:2;
+  flex:3;
   align-items: center;
 }
 .footer-3{
@@ -153,7 +151,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   flex-wrap: wrap;
   padding-top: 20px;
   justify-content: center;
-  flex:1;
+  flex:2;
   align-items: center;
 }
 
@@ -167,18 +165,29 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   }
 }
 /* Style the counter cards */
+
 .card {
   display:flex;
   flex-direction: column;
   position: relative;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-  padding: 5vh;
-  height: 25vh;
+  font-size: large;
+  height: 30vh;
   width: 45vw;
   font-weight: bolder;
   text-align: center;
   align-self: center;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+cursor: pointer;
   
+}
+@media screen and (max-width: 500px) {
+  .card {
+      font-size: small;
+  }
 }
 .rating{
   display: flex;
@@ -190,6 +199,8 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   border: 1px solid black;
   background-color: red;
   color: floralwhite;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 ul{
   list-style: none;
@@ -197,7 +208,7 @@ ul{
 .card-2{
   position: absolute;
   left:0vw;
-  height:25vh;
+  height:30vh;
   top:0vh;
   width:3vw;
   border: black;
@@ -208,7 +219,7 @@ ul{
 .card-3{
   position: absolute;
   right:0vw;
-  height:25vh;
+  height:30vh;
   top:0vh;
   width:3vw;
   border: black;

@@ -12,9 +12,9 @@ class Projects extends Component{
             </Breadcrumb> 
             <div className="project">      
                 <div className="project-1">
-                    <h1 className="title"> Shooting Game </h1>
+                    <div className="title"><h1> Shooting Game </h1></div>
                     <div className="about">
-                    A mini-project game in which you have to shoot the goblin to win. for  
+                    A mini-project game in which you have to shoot the goblin in order to win. for  
                     which it uses pygame and python deployed using trinklet.io. 
                     </div>
                     <div className="deployment">
