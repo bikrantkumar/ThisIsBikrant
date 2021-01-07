@@ -37,7 +37,7 @@ class Header extends Component{
                     </div>
                     <div className="content">
                         <h1 className="headline">All of our dreams <br></br>can come true</h1>
-                        <Link to={'./contact'}><button className="btn links btn-primary m-5">Contact for 
+                        <Link to={'./contact'}><button className="btn links btn-primary m-2 btn-block">Contact for 
                         Colabration</button></Link>
                     </div>
                 </div>

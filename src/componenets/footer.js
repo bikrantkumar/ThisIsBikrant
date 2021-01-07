@@ -16,9 +16,9 @@ function Footer(props){
             <div className="footer-2" >
                 <h5 >Address</h5>
                 <address>
-                    #1496 DMW Patiala,<br />
-                        Punjab<br />
-                        India <br />
+                    DMW Patiala,<br />
+                       Punjab<br />
+                       India <br />
                     <i className="fa fa-phone fa-lg"></i>: +91 8847491426 <br />
                     <i className="fa fa-fax fa-lg"></i>: +0175 23709175 <br />
                     <i className="fa fa-envelope fa-sm"></i>: <a href="mailto:bikrant2000kumar@gmail.com" style={{fontSize: 12}} >
@@ -28,10 +28,10 @@ function Footer(props){
             <div className="footer-3">
                 <a className="btn btn-social-icon btn-google mr-1" href="http://google.com/+"><i className="fa fa-google-plus fa-2x"></i></a>
                 <a className="btn btn-social-icon btn-facebook mr-1" href="http://www.facebook.com/profile.php?id="><i className="fa fa-facebook fa-2x"></i></a>
-                <a className="btn btn-social-icon btn-linkedin mr-1 " href="http://www.linkedin.com/in/"><i className="fa fa-linkedin fa-2x"></i></a>
-                <a className="btn btn-social-icon btn-twitter mr-1 " href="http://twitter.com/"><i className="fa fa-twitter fa-2x"></i></a>
+                <a className="btn btn-social-icon btn-linkedin mr-1 " href="https://www.linkedin.com/in/bikrant-kumar-4980801ab/"><i className="fa fa-linkedin fa-2x"></i></a>
+                <a className="btn btn-social-icon btn-github mr-1 " href="https://github.com/bikrantkumar/"><i className="fa fa-github fa-2x"></i></a>
                 <a className="btn btn-social-icon btn-google mr-1 " href="http://youtube.com/"><i className="fa fa-youtube fa-2x"></i></a>
-                <a className="btn btn-social-icon mr-1" href="mailto:"><i className="fa fa-envelope-o fa-2x"></i></a>
+                <a className="btn btn-social-icon mr-1" href="mailto:bikrant2000kumar@gmail.com"><i className="fa fa-envelope-o fa-2x"></i></a>
             </div>
         </div>
          <div className="footer col-auto justify-content-center">

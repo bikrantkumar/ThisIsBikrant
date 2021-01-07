@@ -21,9 +21,9 @@ class Contact extends Component{
                     <div className="col-12 col-sm-4 offset-sm-1">
                         <h5>Our Address</h5>
                             <address>
-                                #1496 DMW  <br />
-                                Railway Colony , patiala<br />
-                                            India <br />
+                                DMW Patiala <br />
+                                  Punjab<br />
+                                  India <br />
                                 <i className="fa fa-phone fa-lg"></i>: +91 8847491426 <br />
                                 <i className="fa fa-fax fa-lg"></i>: +0175 23709175 <br />
                                 <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:bikrant2000kumar@gmail.com"  >

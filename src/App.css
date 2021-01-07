@@ -15,16 +15,17 @@ html,body
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.header{
+#header{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  position: relative;
+  position: absolute;
 }
 .header-1{
   display: flex;
   flex-direction: row;
   padding: 10px;
+  position: relative;
   background-color: #393b3c;
   flex-wrap: wrap; 
   flex:1
@@ -44,9 +45,8 @@ html,body
 .content{
   display: flex;
   flex-direction: column;
-  padding-top: 20vh;
+  padding-top: 3vh;
   justify-content: center;
-  height:25%;
   position: absolute;
   z-index: 100;
 }
@@ -55,7 +55,12 @@ html,body
   justify-content: center;
   color:floralwhite;
   font-weight: bold;
-  font-size: 6vw;
+  font-size: 200%;
+}
+@media screen and (min-width: 992px) {
+  .headline {
+    font-size: 400%;
+  }
 }
 .body{
   display: flex;
@@ -126,6 +131,22 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   flex-direction: row;
   justify-content: space-evenly;
   padding: 1vh;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.about-1{
+  display: flex;
+  
+  text-align: left;
+  padding:3vw;
+  flex:2;
+  flex-wrap: wrap;
+}
+.about-2{
+  flex:1;
 }
 .footer{
   position: relative;
