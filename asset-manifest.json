@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ThisIsBikrant/static/css/main.378180f7.chunk.css",
-    "main.js": "/ThisIsBikrant/static/js/main.0023e168.chunk.js",
-    "main.js.map": "/ThisIsBikrant/static/js/main.0023e168.chunk.js.map",
+    "main.css": "/ThisIsBikrant/static/css/main.63235210.chunk.css",
+    "main.js": "/ThisIsBikrant/static/js/main.39621358.chunk.js",
+    "main.js.map": "/ThisIsBikrant/static/js/main.39621358.chunk.js.map",
     "runtime-main.js": "/ThisIsBikrant/static/js/runtime-main.5c523c2f.js",
     "runtime-main.js.map": "/ThisIsBikrant/static/js/runtime-main.5c523c2f.js.map",
     "static/css/2.56937c09.chunk.css": "/ThisIsBikrant/static/css/2.56937c09.chunk.css",
-    "static/js/2.98310795.chunk.js": "/ThisIsBikrant/static/js/2.98310795.chunk.js",
-    "static/js/2.98310795.chunk.js.map": "/ThisIsBikrant/static/js/2.98310795.chunk.js.map",
+    "static/js/2.e82fe24e.chunk.js": "/ThisIsBikrant/static/js/2.e82fe24e.chunk.js",
+    "static/js/2.e82fe24e.chunk.js.map": "/ThisIsBikrant/static/js/2.e82fe24e.chunk.js.map",
     "static/js/3.99f26ae1.chunk.js": "/ThisIsBikrant/static/js/3.99f26ae1.chunk.js",
     "static/js/3.99f26ae1.chunk.js.map": "/ThisIsBikrant/static/js/3.99f26ae1.chunk.js.map",
     "index.html": "/ThisIsBikrant/index.html",
     "static/css/2.56937c09.chunk.css.map": "/ThisIsBikrant/static/css/2.56937c09.chunk.css.map",
-    "static/css/main.378180f7.chunk.css.map": "/ThisIsBikrant/static/css/main.378180f7.chunk.css.map",
-    "static/js/2.98310795.chunk.js.LICENSE.txt": "/ThisIsBikrant/static/js/2.98310795.chunk.js.LICENSE.txt",
+    "static/css/main.63235210.chunk.css.map": "/ThisIsBikrant/static/css/main.63235210.chunk.css.map",
+    "static/js/2.e82fe24e.chunk.js.LICENSE.txt": "/ThisIsBikrant/static/js/2.e82fe24e.chunk.js.LICENSE.txt",
     "static/media/1.0d5a8c04.pdf": "/ThisIsBikrant/static/media/1.0d5a8c04.pdf",
-    "static/media/5.acf13c39.mp4": "/ThisIsBikrant/static/media/5.acf13c39.mp4",
+    "static/media/6.8fb1c6ba.mp4": "/ThisIsBikrant/static/media/6.8fb1c6ba.mp4",
     "static/media/font-awesome.css": "/ThisIsBikrant/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.5c523c2f.js",
     "static/css/2.56937c09.chunk.css",
-    "static/js/2.98310795.chunk.js",
-    "static/css/main.378180f7.chunk.css",
-    "static/js/main.0023e168.chunk.js"
+    "static/js/2.e82fe24e.chunk.js",
+    "static/css/main.63235210.chunk.css",
+    "static/js/main.39621358.chunk.js"
   ]
 }
