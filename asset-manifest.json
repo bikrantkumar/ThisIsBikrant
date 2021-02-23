@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ThisIsBikrant/static/css/main.c3a42a91.chunk.css",
-    "main.js": "/ThisIsBikrant/static/js/main.839eceeb.chunk.js",
-    "main.js.map": "/ThisIsBikrant/static/js/main.839eceeb.chunk.js.map",
+    "main.js": "/ThisIsBikrant/static/js/main.71c55e4d.chunk.js",
+    "main.js.map": "/ThisIsBikrant/static/js/main.71c55e4d.chunk.js.map",
     "runtime-main.js": "/ThisIsBikrant/static/js/runtime-main.5c523c2f.js",
     "runtime-main.js.map": "/ThisIsBikrant/static/js/runtime-main.5c523c2f.js.map",
     "static/css/2.56937c09.chunk.css": "/ThisIsBikrant/static/css/2.56937c09.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.c3a42a91.chunk.css.map": "/ThisIsBikrant/static/css/main.c3a42a91.chunk.css.map",
     "static/js/2.e82fe24e.chunk.js.LICENSE.txt": "/ThisIsBikrant/static/js/2.e82fe24e.chunk.js.LICENSE.txt",
     "static/media/1.0d5a8c04.pdf": "/ThisIsBikrant/static/media/1.0d5a8c04.pdf",
-    "static/media/6.8fb1c6ba.mp4": "/ThisIsBikrant/static/media/6.8fb1c6ba.mp4",
+    "static/media/5.acf13c39.mp4": "/ThisIsBikrant/static/media/5.acf13c39.mp4",
     "static/media/font-awesome.css": "/ThisIsBikrant/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
@@ -23,6 +23,6 @@
     "static/css/2.56937c09.chunk.css",
     "static/js/2.e82fe24e.chunk.js",
     "static/css/main.c3a42a91.chunk.css",
-    "static/js/main.839eceeb.chunk.js"
+    "static/js/main.71c55e4d.chunk.js"
   ]
 }
